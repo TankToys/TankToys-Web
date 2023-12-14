@@ -1,0 +1,59 @@
+.top{
+    background-color: var(--principal);
+    display: flex;
+    justify-content: space-between;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+
+.top > * {
+    text-decoration: none;
+    color: var(--text);
+}
+
+.top > img{
+    width: 70px;
+    border-radius: 100%;
+    padding: 10px;
+}
+
+.top > * > img{
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    padding: 10px;
+}
+
+.navMenu > img{
+    filter:  var(--svg_white);
+}
+
+.CLogo{
+    display: flex;
+    align-items: center;
+}
+
+.nav{
+    display: flex;
+    position: absolute;
+    margin-left: 2px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    height: 85vh;
+    width: 80px;
+    background-color: var(--principal);
+}
+
+.nav > * > img{
+    width: 80px;
+    height: 80px;
+    padding: 10px;
+    color: white;
+    filter:  var(--svg_white);
+}
+
+
+.signIn{
+    display: flex;
+}
