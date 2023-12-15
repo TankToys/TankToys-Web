@@ -55,3 +55,20 @@ body {
     transition: border-top 200ms linear;
     border-radius: 2px;
 }
+
+.main{
+    display: flex;
+}
+
+
+.title{
+    margin-top: 40px;
+    position: absolute;
+    z-index: 5;
+    display: flex;
+    justify-content: center;
+}
+
+.title > img{
+    width: 40%;
+}
