@@ -46,8 +46,8 @@
 .multiplayer { grid-area: 1 / 3 / 6 / 5; }
 .online { grid-area: 1 / 5 / 6 / 7; }
 .singleText { grid-area: 6 / 1 / 7 / 3; }
-.onlineText { grid-area: 6 / 3 / 7 / 5; }
-.multiText { grid-area: 6 / 5 / 7 / 7; }
+.multiText { grid-area: 6 / 3 / 7 / 5; }
+.onlineText { grid-area: 6 / 5 / 7 / 7; }
 
 .label{
     margin-top: 3%;

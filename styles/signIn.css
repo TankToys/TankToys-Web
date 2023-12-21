@@ -2,12 +2,27 @@
     border: 1px solid red;
 } */
 
+body{
+    background-image: url(../images/signIn-back_.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
 .bgBlack {
     background-color: black;
 }
 
 .marginAuto {
     margin: auto;
+}
+
+input{
+    border-radius: 10px;
+    padding: 2%;
+    margin-bottom: 4%;
+    background-color: black;
+    
 }
 
 .flex {
@@ -19,7 +34,26 @@
 }
 
 .hide {
-    display: hidden;
+    display: none!important;
+}
+
+.container{
+    background-color: rgba(0, 0, 0, 0.863);
+    border-radius: 12px;
+    padding-bottom: 2%;
+    padding-top: 2%;
+}
+
+.loginMain {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    flex-direction: column;
+    width: 100%;
+    margin: auto;
+    align-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
 .signLogIn {
@@ -27,9 +61,18 @@
     justify-content: center;
     align-self: center;
     flex-direction: column;
-    width: 30%;
+    width: 20%;
     margin: auto;
     align-content: center;
     align-items: center;
-    height: 100vh;
+}
+
+div{
+    color: var(--text);
+}
+
+.clickable{
+    color: rgb(0, 89, 255);
+    text-decoration: underline;
+    cursor: pointer;
 }

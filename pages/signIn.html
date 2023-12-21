@@ -8,10 +8,10 @@
     <link rel="stylesheet" href="../styles/signIn.css">
     
     <script src="../scripts/signLogIn.js"></script>
-    <title>Document</title>
+    <title>TankToys</title>
 </head>
 <body>
-    <div id="sign" class="nav">
+    <div class="nav">
         <div class="logo">
             <img src="../images/company_logo.png" alt="company logo">
             <h1>TankToys</h1>
@@ -25,34 +25,32 @@
         </div>
     </div>
 
-    <div id="sign" class="signLogIn">
-        <h1>Sign In</h1>
-        Username:
-        <input type="text">
-        Address:
-        <input type="text">
-        Passowrd:
-        <input type="text">
-        Repeat password:
-        <input type="text">
-
-        <div>
-            Ya tienes cuenta entonces: 
-            <a href="" onclick="hiddenToggle()">Inicia sesion</a>
+    <div class="loginMain">
+        <div id="sign" class="signLogIn container">
+            <h1>Sign In</h1>
+            <input type="text" placeholder="Username:">
+            <input type="text" placeholder="Address:">
+            <input type="text" placeholder="Passowrd:">
+            <input type="text" placeholder="Repeat password:">
+    
+            <div>
+                Ya tienes cuenta entonces: 
+                <div class="clickable" onclick="hiddenToggle()">Inicia sesion</div>
+            </div>
+        </div>
+    
+        <div id="log" class="signLogIn hide container">
+            <h1>Log In</h1>
+            <input type="text" placeholder="Address:">
+            <input type="text" placeholder="Passowrd:">
+    
+            <div>
+                No tienes cuenta entonces: 
+                <div class="clickable" onclick="hiddenToggle()">Registrate</div>
+            </div>
         </div>
     </div>
 
-    <div id="log" class="signLogIn hide">
-        <h1>Log In</h1>
-        Address:
-        <input type="text">
-        Passowrd:
-        <input type="text">
-
-        <div>
-            No tienes cuenta entonces: 
-            <a href="" onclick="hiddenToggle()">Registrate</a>
-        </div>
-    </div>
+    
 </body>
 </html>

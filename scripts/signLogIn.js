@@ -1,7 +1,8 @@
 function hiddenToggle() {
     let login = document.getElementById("log");
     let signin = document.getElementById("sign");
-    if (login.className.contains("hide") ) {
+    
+    if (login.className.includes("hide") ) {
         login.classList.remove("hide");
         signin.classList.add("hide");
     } else {

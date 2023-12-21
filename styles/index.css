@@ -30,3 +30,9 @@ body {
     width: 100%;
     height: 100vh;
 }
+
+.notes{
+
+    width: 50%;
+    background-color: red;
+}
