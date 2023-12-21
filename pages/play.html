@@ -1,23 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../styles/general.css">
+    <link rel="stylesheet" href="../styles/nav.css">
     <link rel="stylesheet" href="../styles/play.css">
     <title>TankToys</title>
 </head>
-<body>
 
+<body>
+    <div class="nav">
+        <div class="logo">
+            <img src="../images/company_logo.png" alt="company logo">
+            <h1>TankToys</h1>
+        </div>
+
+        <div class="links">
+            <div><a href="../index.html">Home</a></div>
+            <div><a href="./play.html" class="nav-active">Play</a></div>
+            <div><a href="./garage.html">Garage</a></div>
+            <div><a href="">Sign up</a></div>
+        </div>
+    </div>
 
     <div class="game-selector">
         <div class="singleplayer option">
-            Singleplayer
+            <img src="../images/singleplayer.jpeg" alt="">
+        </div>
+
+        <div class="online option">
+           <img src="../images/online.jpeg" alt="">
         </div>
 
         <div class="multiplayer option">
-            Multiplayer
+            <img src="../images/coop.jpeg" alt="">
         </div>
+        <div class="singleText label">SINGLEPLAYER</div>
+        <div class="onlineText label">ONLINE</div>
+        <div class="multiText label">LOCAL-COOP</div>
     </div>
 </body>
+
 </html>
