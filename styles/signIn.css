@@ -1,0 +1,35 @@
+/* *{
+    border: 1px solid red;
+} */
+
+.bgBlack {
+    background-color: black;
+}
+
+.marginAuto {
+    margin: auto;
+}
+
+.flex {
+    display: flex;
+}
+
+.allign {
+    justify-content: center;
+}
+
+.hide {
+    display: hidden;
+}
+
+.signLogIn {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    flex-direction: column;
+    width: 30%;
+    margin: auto;
+    align-content: center;
+    align-items: center;
+    height: 100vh;
+}

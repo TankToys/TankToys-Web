@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/general.css">
+    <link rel="stylesheet" href="../styles/nav.css">
+    <link rel="stylesheet" href="../styles/signIn.css">
+    
+    <script src="../scripts/signLogIn.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div id="sign" class="nav">
+        <div class="logo">
+            <img src="../images/company_logo.png" alt="company logo">
+            <h1>TankToys</h1>
+        </div>
+
+        <div class="links">
+            <div><a href="../index.html">Home</a></div>
+            <div><a href="./play.html">Play</a></div>
+            <div><a href="./garage.html">Garage</a></div>
+            <div><a href="./signIn.html" class="nav-active">Sign up</a></div>
+        </div>
+    </div>
+
+    <div id="sign" class="signLogIn">
+        <h1>Sign In</h1>
+        Username:
+        <input type="text">
+        Address:
+        <input type="text">
+        Passowrd:
+        <input type="text">
+        Repeat password:
+        <input type="text">
+
+        <div>
+            Ya tienes cuenta entonces: 
+            <a href="" onclick="hiddenToggle()">Inicia sesion</a>
+        </div>
+    </div>
+
+    <div id="log" class="signLogIn hide">
+        <h1>Log In</h1>
+        Address:
+        <input type="text">
+        Passowrd:
+        <input type="text">
+
+        <div>
+            No tienes cuenta entonces: 
+            <a href="" onclick="hiddenToggle()">Registrate</a>
+        </div>
+    </div>
+</body>
+</html>
